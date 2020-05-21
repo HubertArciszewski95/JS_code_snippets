@@ -1,0 +1,16 @@
+const todayDate = getDate()
+const oneDayAheadFromToday = getDate(1)
+
+
+function getDate(daysAheadFromCurrentDate=0) {
+    const dateObj = new Date();
+    dateObj.setDate(dateObj.getDate() + daysAheadFromCurrentDate);
+    
+    const month = String(dateObj.getMonth() + 1).padStart(2, '0');
+    const day = String(dateObj.getDate()).padStart(2, '0');
+    const year = dateObj.getFullYear();
+    
+    const output = `${year}-${month}-${day}`
+    
+    return output;
+}
