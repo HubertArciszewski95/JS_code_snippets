@@ -2,5 +2,5 @@
 Useful JS code snippets
 
 ## getDate function
-- Give todays date
-- Give specified days ahead from today. Next month case handled
+- Return todays date
+- Return X days after current date
