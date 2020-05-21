@@ -1,3 +1,6 @@
+// Return todays date
+// Return X days after current date
+
 const todayDate = getDate()
 const oneDayAheadFromToday = getDate(1)
 
