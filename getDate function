@@ -5,6 +5,7 @@ const todayDate = getDate()
 const oneDayAheadFromToday = getDate(1)
 
 
+// Vanila JS solution
 function getDate(daysAheadFromCurrentDate=0) {
     const dateObj = new Date();
     dateObj.setDate(dateObj.getDate() + daysAheadFromCurrentDate);
@@ -16,4 +17,15 @@ function getDate(daysAheadFromCurrentDate=0) {
     const output = `${year}-${month}-${day}`
     
     return output;
+}
+
+
+// MomentJS solution
+const moment = require('moment');
+
+const todayDate = getDate()
+const oneDayAheadFromToday = getDate(1)
+
+function getDate(daysAheadFromCurrentDate=0) {
+    return moment().add(daysAheadFromCurrentDate, 'days').format("YYYY-MM-DD");
 }
