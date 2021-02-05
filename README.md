@@ -8,3 +8,7 @@ Useful JS code snippets
 
 ### date_formatting
 - Format string '20200631160000' to a date
+
+## Other
+### jwt_decode
+- decode JWT tokens
