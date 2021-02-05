@@ -1,6 +1,7 @@
 # JS_code_snippets
 Useful JS code snippets
 
+# Working with dates
 ## getDate function
 - Return todays date
 - Return X days the after current date
