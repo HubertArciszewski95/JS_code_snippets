@@ -1,9 +1,9 @@
 # JS_code_snippets
 Useful JS code snippets
 
-## getDate function
+## getDate()
 - Return todays date
-- Return X days after current date
+- Return X days the after current date
 
-## Format date that's in string
+## Date formatting
 - Format string '20200631160000' to a date
