@@ -1,7 +1,7 @@
 # JS_code_snippets
 Useful JS code snippets
 
-## getDate()
+## getDate function
 - Return todays date
 - Return X days the after current date
 
