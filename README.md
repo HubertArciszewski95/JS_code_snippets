@@ -1,10 +1,10 @@
 # JS_code_snippets
 Useful JS code snippets
 
-# Working with dates
-## getDate function
+## Working with dates
+### getDate function
 - Return todays date
 - Return X days the after current date
 
-## Date formatting
+### date_formatting
 - Format string '20200631160000' to a date
